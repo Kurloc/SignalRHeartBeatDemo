@@ -27,7 +27,9 @@ namespace DashboardWebserver
             if (i >= 0)
                 filePath = filePath.Substring(0, i) + filePath.Substring(i + serverName.Length);
 
-            Configuration["contentRoot"] = $@"{filePath}\{dbName}";
+            filePath = filePath.Replace(@"\\bin\Debug\net5.0\", "");
+            filePath = filePath.Replace(@"\bin\Debug\net5.0\", "");
+            Configuration["contentRoot"] = ($@"{filePath}\{dbName}");
             Console.WriteLine(Configuration["contentRoot"]);
         }
 

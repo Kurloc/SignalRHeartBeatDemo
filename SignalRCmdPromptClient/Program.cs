@@ -15,6 +15,7 @@ namespace SignalRDemo
         {
             Console.WriteLine("Hello World!");
             var running = true;
+            
             await StartConnection();
             while (running)
             {
