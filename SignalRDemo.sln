@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRCmdPromptClient", "SignalRCmdPromptClient\SignalRCmdPromptClient.csproj", "{2161130D-6454-43C1-B450-5C43641481E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRServer", "SignalRServer\SignalRServer.csproj", "{76E814DE-71A0-4D9D-B8BD-5093A502D01C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRSharedModels", "SignalRSharedModels\SignalRSharedModels.csproj", "{13A2A053-1AF1-4675-8BB3-A7815DC4A763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardWebserver", "DashboardWebserver\DashboardWebserver.csproj", "{61BE2E22-239D-45EC-8E4C-953A16959829}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2161130D-6454-43C1-B450-5C43641481E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2161130D-6454-43C1-B450-5C43641481E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2161130D-6454-43C1-B450-5C43641481E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2161130D-6454-43C1-B450-5C43641481E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76E814DE-71A0-4D9D-B8BD-5093A502D01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E814DE-71A0-4D9D-B8BD-5093A502D01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E814DE-71A0-4D9D-B8BD-5093A502D01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E814DE-71A0-4D9D-B8BD-5093A502D01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A2A053-1AF1-4675-8BB3-A7815DC4A763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A2A053-1AF1-4675-8BB3-A7815DC4A763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A2A053-1AF1-4675-8BB3-A7815DC4A763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A2A053-1AF1-4675-8BB3-A7815DC4A763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BE2E22-239D-45EC-8E4C-953A16959829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BE2E22-239D-45EC-8E4C-953A16959829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BE2E22-239D-45EC-8E4C-953A16959829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BE2E22-239D-45EC-8E4C-953A16959829}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
